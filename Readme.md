@@ -81,7 +81,7 @@ You may hit a NotImplementedException if there's syntax that the tool hasn't see
 
 ## How to use
 
-1. Clone this repository (example: `git clone https://github.com/Techsola/api-usage-analyzer`)
+1. Clone this repository (example: `git clone https://github.com/jnm2/api-usage-analyzer`)
 2. Navigate to the `src\ApiUsageAnalyzer` subdirectory (example: `cd api-usage-analyzer\src\ApiUsageAnalyzer`)
 3. Type `dotnet run` followed by the arguments below. `--open-in-vs-code` is recommended.
 4. Wait a bit as repositories are cloned, restored, and analyzed.
