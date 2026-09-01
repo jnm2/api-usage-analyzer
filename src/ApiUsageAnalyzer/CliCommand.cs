@@ -48,7 +48,7 @@ public sealed class CliCommand : AsyncCommand<CliCommand.Settings>
         }
     }
 
-    public override async Task<int> ExecuteAsync(CommandContext context, Settings settings)
+    protected override async Task<int> ExecuteAsync(CommandContext context, Settings settings, CancellationToken cancellationToken)
     {
         var resultFile = Path.GetFullPath(settings.AssemblyName + ".kdl");
 
@@ -67,7 +67,6 @@ public sealed class CliCommand : AsyncCommand<CliCommand.Settings>
         var analysisCompleted = false;
 
         using (var localWorkspace = new LocalWorkspace())
-        using (ConsoleUtils.HandleCtrlC(out var cancellationToken))
         {
             try
             {
