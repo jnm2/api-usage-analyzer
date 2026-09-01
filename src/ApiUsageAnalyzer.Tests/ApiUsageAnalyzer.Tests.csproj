@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Shouldly" Version="4.3.0" />
-    <PackageReference Include="Spectre.Console.Testing" Version="0.50.0" />
+    <PackageReference Include="Spectre.Console.Testing" Version="0.57.2" />
     <PackageReference Include="TUnit" Version="0.25.21" />
   </ItemGroup>
 
