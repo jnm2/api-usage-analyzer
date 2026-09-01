@@ -77,7 +77,7 @@ assembly SomeLibrary {
 
 ## Prerelease status
 
-You may hit a NotImplementedException if there's syntax that the tool hasn't seen before. If you don't mind getting a little grease on your hands, this will pose no obstacle to you, and we would be delighted if you're inspired to share back as a pull request. Issues are welcome too.
+You may hit a NotImplementedException if there's syntax that the tool hasn't seen before. If you don't mind getting a little grease on your hands, this will pose no obstacle to you, and I would be delighted if you're inspired to share back as a pull request. Issues are welcome too.
 
 ## How to use
 
